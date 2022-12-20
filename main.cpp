@@ -96,9 +96,9 @@ int main()
         fig[i] -> draw(*s);
     }
 
-  //  for(size_t i = 0; i < fig.size(); i++){
-  //      delete fig[i];
-  //  }
+    for(size_t i = 0; i < fig.size(); i++){
+        delete fig[i];
+    }
 
     s -> writeOFF("semaforo.off");
 
